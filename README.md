@@ -14,3 +14,7 @@ Analysis scoring is conducted as follows:
 - "Describe your feelings on topic presented" is the main scoring method and it is scored according to the number of positive and negative words found on the answer
 - If "Describe your feelings on topic presented" sentiment score is positive, but combined sentiment score of other question types is negative, will the sentiment score be neutral and vice versa
   
+The program can be executed by running the sentiment_analysis_main.py -file.
+Different question types are stored in their own files.
+Negative and positive word lists are saved in their own files.
+ChatGTP_test_answers.txt contains ChatGPT generated answers to all "Describe your feelings on topic presented" -questions in the questionaire. These answers were used for calibrating the scoring system.
